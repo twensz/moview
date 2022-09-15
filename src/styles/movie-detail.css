@@ -1,0 +1,13 @@
+movie-detail {
+  font-weight: 300;
+}
+movie-detail img {
+  width: 100%;
+}
+movie-detail .card-title {
+  font-size: 1.2rem;
+}
+movie-detail .list-group-item {
+  background-color: transparent;
+  color: #e9ecef;
+}

@@ -1,0 +1,36 @@
+movie-item .card {
+  cursor: pointer;
+}
+movie-item .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+movie-item .card-img-top:hover {
+  transition: 0.3s;
+  filter: brightness(0.9);
+}
+movie-item .card-title:hover {
+  text-decoration: underline;
+}
+movie-item .card-img-top {
+  height: 30%;
+  object-fit: cover;
+}
+.card-title {
+  font-weight: 400;
+}
+.card {
+  background-color: #212529;
+  color: #e9ecef;
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 768px) {
+  .card-title {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .card-subtitle {
+    font-size: 0.8rem;
+  }
+}
